@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+app/__init__.py
+app/calculador.py
+app/calculadora.py
+calculadora_tk.egg-info/PKG-INFO
+calculadora_tk.egg-info/SOURCES.txt
+calculadora_tk.egg-info/dependency_links.txt
+calculadora_tk.egg-info/requires.txt
+calculadora_tk.egg-info/top_level.txt
+demo/_init_.py

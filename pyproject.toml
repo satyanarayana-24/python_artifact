@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculadora-tk"
+version = "1.0.0"
+description = "Python Tkinter calculator project"
+authors = [{name="Satya Narayana", email="satyanarayana.gidituri666@gmail.com"}]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = ["tk"]  # Tkinter dependency (usually built-in)
+
+[tool.setuptools]
+# Explicitly list the packages you want to include in the artifact
+packages = ["app", "demo"]
